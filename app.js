@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-let items =["buy food ","make food","eat food"];
+let items =[];
 
 app.set("view engine", "ejs");
 
